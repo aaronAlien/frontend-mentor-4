@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  main {
+    font-size: 15px;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@layer components {
+  ul {
+    @apply list-none;
+  }
+
+  .nav li a {
+    @apply hover:text-soft-red transition duration-300 ease-in-out;
+  }
+
+  .copy {
+    @apply text-body-copy text-dark-grayish-blue tracking-wide;
+  }
+
+  .new li:first-child,
+  .new li:nth-child(2) {
+    @apply border-b border-b-dark-grayish-blue/40 pb-6;
+  }
+
+  .new-p {
+    @apply text-Off-white font-bold text-xl pb-4 hover:text-soft-orange transition duration-300 ease-in-out;
+  }
+
+  .article-img {
+    @apply flex justify-center items-center w-full;
+  }
+
+  .article-num {
+    @apply text-4xl font-bold text-soft-red;
+  }
+
+  .article-title {
+    @apply font-bold text-lg hover:text-soft-red transition duration-300 ease-in-out;
+  }
+}
