@@ -4,12 +4,12 @@ const Footer = () => {
   return (
     <>
       <footer className='attribution'>
-        Challenge by
+        Challenge by{" "}
         <a href='https://www.frontendmentor.io?ref=challenge' target='_blank'>
           Frontend Mentor
         </a>
         . Coded by{" "}
-        <a href='#' target='_blank'>
+        <a href='https://aaronhshakespeare.vercel.app/' target='_blank'>
           Aaron H Shakespeare
         </a>
         .
