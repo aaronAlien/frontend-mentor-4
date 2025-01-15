@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Built with
 
-* decided to use React and Tailwind for this challenge for better planning and 
+* decided to use React and Tailwind for this challenge for better planning and visualisation.
 
 - [React](https://reactjs.org/) 
 - [Vite](https://vite.dev/)

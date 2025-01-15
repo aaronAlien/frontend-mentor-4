@@ -6,8 +6,8 @@ import gaming from "../../assets/images/image-gaming-growth.jpg";
 const Articles = () => {
   return (
     <>
-      <section className='three-articles flex flex-col md:flex-row justify-center'>
-        <div className='article one-pcs grid sm:grid-cols-3 gap-6 w-full'>
+      <section className='flex flex-col lg:flex-row justify-center gap-6 sm:gap-2'>
+        <div className='article grid grid-cols-2 sm:grid-cols-3 gap-6 w-full'>
           <img src={pc} alt='' className='article-img' />
           <div className='articles-text col-start-2 col-span-2 flex flex-col gap-2 2xl:mr-4'>
             <h3 className='article-num'>01</h3>
@@ -19,7 +19,7 @@ const Articles = () => {
             </p>
           </div>
         </div>
-        <div className='article two-laptops grid sm:grid-cols-3 gap-6 w-full'>
+        <div className='article grid grid-cols-2 sm:grid-cols-3 gap-6 w-full'>
           <img src={laptop} alt='' className='article-img' />
           <div className='articles-text col-start-2 col-span-2 flex flex-col gap-2 2xl:mr-4'>
             <h3 className='article-num'>02</h3>
@@ -31,7 +31,7 @@ const Articles = () => {
             </p>
           </div>
         </div>
-        <div className='article three-gaming grid sm:grid-cols-3 gap-6 w-full'>
+        <div className='article grid grid-cols-2 sm:grid-cols-3 gap-6 w-full'>
           <img src={gaming} alt='' className='article-img' />
           <div className='articles-text col-start-2 col-span-2 flex flex-col gap-2 2xl:mr-4'>
             <h3 className='article-num'>03</h3>

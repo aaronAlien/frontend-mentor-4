@@ -41,13 +41,13 @@ const Navbar = () => {
 
       </nav>
 
-      <div className={`fixed top-0 right-0 h-full w-1/2 bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${
-          isMenuOpen ? 'translate-x-0' : 'translate-x-full'
-        }`}>
-      <button className='toggle' onClick={menuToggle}>
+      <div className={`fixed top-0 right-0 h-full w-2/3 bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+      
+      <button className='relative top-6 left-3/4' onClick={menuToggle}>
           <img src={menuClose} alt='close menu button' />
         </button>
-      <ul className="flex flex-col justify-center items-center gap-4">
+
+      <ul className="flex flex-col justify-center gap-5 my-20 pl-6 text-lg">
           <li>
             <a href=''>Home</a>
           </li>
