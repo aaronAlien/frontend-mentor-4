@@ -9,25 +9,27 @@ import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <>
-      <main className='flex flex-col h-screen mx-4 my-6 md:my-16 md:mx-28 2xl:my-20 2xl:mx-40'>
+      <main className='flex flex-col h-screen mx-4 my-6 md:my-16 md:mx-8 lg:mx-24'>
         <div className='mb-10'>
           <Navbar />
         </div>
 
-        <div className='container-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 grid-rows-3 gap-12'>
-          
-          <div className='col-span-full row-span-1 sm:col-span-3 md:col-span-full lg:col-span-4 lg:row-span-2 md:row-start-1'>
-            <HeroGrid />
-          </div>
+        <div className='flex flex-col md:flex-row justify-center'>
 
-          <div className='col-span-full row-span-1 sm:col-span-2 md:col-span-full lg:col-start-5 lg:col-end-7 lg:row-span-2 mx-auto w-full bg-very-dark-blue'>
-            <New />
-          </div>
-
-          <div className='row-span-1 lg:row-start-3 col-span-full'>
-            <Articles />
+          <div className='lg:grid lg:grid-cols-3 lg:gap-6'>
+            
+            <div className='lg:col-start-1 lg:col-end-3 mb-14 md:mb-10'>
+              <HeroGrid />
+            </div>
+            <div className='md:row-start-1 col-start-3 mb-14 md:mb-10'>
+              <New />
+            </div>
+            <div className='md:row-start-2 col-start-1 col-end-4 md:mt-6'>
+              <Articles />
+            </div>
           </div>
         </div>
+
         <div className='py-3'>
           <Footer />
         </div>

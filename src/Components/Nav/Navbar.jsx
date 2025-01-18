@@ -17,11 +17,11 @@ const Navbar = () => {
           <img src={logo} alt='logo' />
         </div>
 
-        <button className='toggle md:hidden' onClick={menuToggle}>
+        <button className='toggle md:hidden relative z-50' onClick={menuToggle}>
           <img src={isMenuOpen ? menuClose : menuOpen} alt='open menu button' />
         </button>
         
-        <ul className={`copy hidden md:flex justify-center items-center gap-4 ${isMenuOpen ? 'hidden' : 'flex'}`}>
+        <ul className={`copy hidden md:flex justify-center items-center gap-4 z-50 ${isMenuOpen ? 'hidden' : 'flex'}`}>
           <li>
             <a href=''>Home</a>
           </li>
@@ -43,7 +43,7 @@ const Navbar = () => {
 
       <div className={`fixed top-0 right-0 h-full w-2/3 bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
       
-      <button className='relative top-6 left-3/4' onClick={menuToggle}>
+      <button className='hidden md:flex' onClick={menuToggle}>
           <img src={menuClose} alt='close menu button' />
         </button>
 

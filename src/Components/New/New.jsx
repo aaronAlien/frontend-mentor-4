@@ -3,9 +3,9 @@ import React from "react";
 const New = () => {
   return (
     <>
-      <section className='new flex flex-col py-8 px-4'>
+      <section className='new flex flex-col h-full py-8 px-4 bg-very-dark-blue'>
         <h2 className='mb-12 text-4xl font-bold text-soft-orange'>New</h2>
-        <ul className="flex flex-col gap-12">
+        <ul className="flex flex-col gap-8 lg:gap-14">
           <li className="">
             <a href='#' target='_blank'>
               <p className="new-p">Hydrogen VS Electric Cars</p>
