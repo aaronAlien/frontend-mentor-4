@@ -24,10 +24,10 @@ const HeroGrid = () => {
             />
           </div>
 
-          <div className='row-start-2 flex flex-col md:flex-row justify-center mt-6 gap-6 xl:gap-20 mx-auto'>
+          <div className='row-start-2 flex flex-col md:flex-row justify-center mt-6 gap-6 xl:gap-0 2xl:gap-20 mx-auto'>
           
             <div className='flex items-start'>
-              <h1 className='text-7xl lg:text-6xl xl:text-8xl font-extrabold'>
+              <h1 className='text-6xl xl:text-7xl 2xl:text-8xl font-extrabold'>
                 The Bright Future of Web 3.0?
               </h1>
             </div>
