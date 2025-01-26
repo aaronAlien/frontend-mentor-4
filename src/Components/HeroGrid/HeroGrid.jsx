@@ -24,7 +24,7 @@ const HeroGrid = () => {
             />
           </div>
 
-          <div className='row-start-2 flex flex-col md:flex-row justify-center mt-6 gap-6 xl:gap-0 2xl:gap-20 mx-auto'>
+          <div className='row-start-2 flex flex-col xl:flex-row justify-center mt-6 gap-6 xl:gap-16 2xl:gap-8 mx-auto'>
           
             <div className='flex items-start'>
               <h1 className='text-6xl xl:text-7xl 2xl:text-8xl font-extrabold'>
@@ -37,7 +37,7 @@ const HeroGrid = () => {
                 power of the platforms back into the hands of the people. But is
                 it really fulfilling its promise?
               </p>
-              <button className='bg-soft-red mt-4 lg:mt-0 py-3 px-9 tracking-widest font-bold hover:bg-very-dark-blue hover:text-Off-white transition duration-300 ease-in-out'>
+              <button className='bg-soft-red mt-4 xl:mt-0 py-3 px-9 tracking-widest font-bold hover:bg-very-dark-blue hover:text-Off-white transition duration-300 ease-in-out'>
                 READ MORE
               </button>
             </div>

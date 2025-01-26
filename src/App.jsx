@@ -9,19 +9,19 @@ import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <>
-      <main className='flex flex-col h-screen mx-4 my-6 md:my-16 md:mx-8 lg:mx-24'>
+      <main className='flex flex-col h-screen mx-4 my-6 md:my-16 md:mx-8 lg:mx-24 2xl:mx-48'>
         <div className='mb-10'>
           <Navbar />
         </div>
 
         <div className='flex flex-col md:flex-row justify-center'>
 
-          <div className='lg:grid lg:grid-cols-3 lg:gap-6'>
+          <div className='lg:grid lg:grid-cols-3 lg:gap-6 2xl:gap-8'>
             
-            <div className='lg:col-start-1 lg:col-end-3 mb-14 md:mb-10'>
+            <div className='lg:col-start-1 lg:col-end-3 mb-14 md:mb-10 2xl:mb-0'>
               <HeroGrid />
             </div>
-            <div className='md:row-start-1 col-start-3 mb-14 md:mb-10'>
+            <div className='md:row-start-1 col-start-3 mb-14 md:mb-10 2xl:mb-0'>
               <New />
             </div>
             <div className='md:row-start-2 col-start-1 col-end-4 md:mt-6'>
@@ -30,7 +30,7 @@ function App() {
           </div>
         </div>
 
-        <div className='py-3'>
+        <div className='pt-8'>
           <Footer />
         </div>
       </main>

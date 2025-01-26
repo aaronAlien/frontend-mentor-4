@@ -6,14 +6,11 @@ import gaming from "../../assets/images/image-gaming-growth.jpg";
 const Articles = () => {
   return (
     <>
-      <section className='grid grid-cols-1 lg:grid-cols-3 mx-auto gap-6 lg:gap-0'>
-        
-        <div className='lg:col-start-1 flex gap-4'>
+      <section className='grid grid-cols-1 lg:grid-cols-3 mx-auto gap-6'>
+        <div className='lg:col-start-1 flex gap-8'>
+          <img src={pc} alt='' className='h-auto w-32' />
 
-          <img src={pc} alt='' className='w-1/4 lg:w-1/3' />
-          
           <div className='flex flex-col gap-3'>
-
             <h3 className='article-num'>01</h3>
             <a href='#' target='_blank'>
               <h3 className='article-title'>Reviving Retro PCs</h3>
@@ -21,13 +18,11 @@ const Articles = () => {
             <p className='copy pr-8'>
               What happens when old PCs are given modern upgrades?
             </p>
-        
           </div>
         </div>
-        <div className='lg:col-start-2 flex gap-4'>
+        <div className='lg:col-start-2 flex gap-8 2xl:ml-14'>
+          <img src={laptop} alt='' className='h-auto w-32' />
 
-          <img src={laptop} alt='' className='w-1/4 lg:w-1/3' />
-          
           <div className='flex flex-col gap-3'>
             <h3 className='article-num'>02</h3>
             <a href='#' target='_blank'>
@@ -37,12 +32,10 @@ const Articles = () => {
               Our best picks for various needs and budgets.
             </p>
           </div>
-        
         </div>
-        <div className='lg:col-start-3 flex gap-4 w-full lg:ml-4'>
+        <div className='lg:col-start-3 flex gap-8 2xl:ml-1'>
+          <img src={gaming} alt='' className='h-auto w-32' />
 
-          <img src={gaming} alt='' className='w-1/4 lg:w-1/3' />
-          
           <div className='flex flex-col gap-3'>
             <h3 className='article-num'>03</h3>
             <a href='#' target='_blank'>
@@ -52,7 +45,6 @@ const Articles = () => {
               How the pandemic has sparked fresh opportunities.
             </p>
           </div>
-        
         </div>
       </section>
     </>
